@@ -13,7 +13,7 @@ The triangle's position is calculated using either `gl_InstanceID` or `gl_DrawID
 Vertices are hardcoded into a local array and indexed with `gl_VertexID`. Overall the shaders are very simple. The actual draw call used is `glMultiDrawArraysIndirect` which is capable of both instancing and multi drawing.
 
 Here is the output with a triangle count of 10'000:
-![10KTriangles](Screenshots/10kTriangles.bmp?raw=true)
+![10KTriangles](Screenshots/10KTriangles.bmp?raw=true)
 
 
 ## 2.0 Data evaluation
